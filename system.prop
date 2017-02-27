@@ -17,18 +17,18 @@ rol.ril.ext.ecclist=112,911,999,110,122,119,120,000,08,118
 ro.qc.sdk.audio.ssr=false
 ro.qc.sdk.audio.fluencetype=fluence
 ro.qc.sdk.camera.facialproc=true
-ro.qc.sdk.gestures.camera=false
+ro.qc.sdk.gestures.camera=true
 ro.qc.sdk.sensors.gestures=true
 ro.vendor.extension_library=/vendor/lib/libqc-opt.so
 
 # NFC
 debug.nfc.fw_download=true
-debug.nfc.fw_boot_download=false
+debug.nfc.fw_boot_download=true
 debug.nfc.se=true
 ro.nfc.port=I2C
 
 # Audio
-persist.audio.fluence.mode=endfire
+persist.audio.fluence.mode=fluence
 persist.audio.vr.enable=false
 persist.audio.handset.mic=digital
 af.resampler.quality=255
